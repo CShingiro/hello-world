@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fish Creek Animal Clinic | Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="fishcreek.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Fish Creek Animal Clinic Contact</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="askvet.html">Ask The Vet</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact Fish Creek</h2>
+            <p>Required Information is marked with an asterisk(*)</p>
+            <form method="POST" action="http://webdevbasics.net/scripts/fishcreek.php">
+                <label for="myName">* Name:</label>
+                <input name="myName" id="myName" required>
+                <label for="myEmail">* Email:</label>
+                <input name="myEmail" type="email" required>
+                <label for="myComments">* Comments:</label>
+                <textarea name="myComments" rows="2" cols="20" required></textarea>
+                <button type="submit" id="mySubmit">Send Now</button>
+            </form>     
+        </main><br>
+        <footer>
+            Copyright &copy; 2018 Fish Creek Animal Clinic <br>
+            <a href="mailto:cshingiro7202@conestogac.on.ca">cshingiro7202@conestogac.on.ca</a>
+        </footer>
+    </div>
+</body>
+</html>
